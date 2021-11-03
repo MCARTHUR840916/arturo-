@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario HTML</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Formulario en HTML</h1>
+        <form>
+            <h3>Texto</h3>
+            <label for="nombre">Nombre de Usuario: </label>
+            <input type="text" name="nombre" id="nombre" maxlength="50">
+
+            <h3>Contraseña</h3>
+            <label for="clave">Contraseña</label>
+            <input type="password" name="clave" id="clave" maxlength="10">
+
+            <h3>Area de texto</h3>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+            <h3>Spinner</h3>
+            <label for="spinner">Spinner</label>
+            <input type="number" name="spinner" id="spinner" min="0" max="20" step="1">
+
+            <h3>Fecha</h3>
+            <label for="fecha">Fecha: </label>
+            <input type="date" name="fecha" id="fecha">
+
+            <h3>Fecha-Hora</h3>
+            <label for="fecha_hora">Fecha-Hora: </label>
+            <input type="datetime-local" name="fecha_hora" id="fecha_hora">
+
+            <h3>Semana</h3>
+            <label for="semana">Semana: </label>
+            <input type="week" name="semana" id="semana">
+
+            <h3>Hora</h3>
+            <label for="hora">Hora: </label>
+            <input type="time" name="hora" id="hora">
+
+            <h3>Radio</h3>
+            <label for="genero">Genero:</label>
+            <input type="radio" name="genero" value="F">Femenino
+            <input type="radio" name="genero" value="M">Masculino
+
+            <h3>Lista de despliegue</h3>
+            <select name="tipo_documento" id="tipo_documento">Tipo de documento</select>
+            <option value="TI">Tarjeta de identidad</option>
+            <option value="CC">Cedula de ciudania</option>
+            <option value="CE">Cedula de extrangeria</option>
+        </form>
+    </body>
+
+</html>
